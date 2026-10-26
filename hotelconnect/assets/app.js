@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const a=document.querySelector('input[name="arrivee"]'),d=document.querySelector('input[name="depart"]');if(a&&d){a.addEventListener('change',()=>{d.min=a.value;if(d.value&&d.value<=a.value)d.value='';});}});
